@@ -1,0 +1,28 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.roma{
+  width: 100vh;
+  height: 50vh;
+  background-image: url(../img/roma.jpg);
+  background-size: cover;
+  position: relative;
+}
+
+.shadow{
+  width: 100vh;
+  height: 50vh;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.name_city{
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+
+}
