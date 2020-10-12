@@ -1,33 +1,23 @@
 *{
   box-sizing: border-box;
-  margin: 0;
 }
 
-body{
-  padding-left: 5px;
-  padding-top: 5px;
 
-}
 
 .roma{
   width: 30vw;
-  height: 32vh;
+  height: 31vh;
   background-image: url(../img/roma.jpg);
   background-size: cover;
   position: relative;
-  margin-bottom: 5px;
-
-
-
+  margin: 10px;
 }
 
 .shadow{
-  width: 30vw;
-  height: 32vh;
-  background-color: rgba(0, 0, 0, 0.3);
-  /* box-shadow: 2px 2px; */
-
+    box-shadow: 3px 3px #000000;
 }
+
+
 
 .name_city{
   color: white;
@@ -37,25 +27,27 @@ body{
   transform: translate(-50%, -50%);
   text-transform: uppercase;
   font-weight: 600;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 .napoli{
   width: 30vw;
-  height: 32vh;
+  height: 31vh;
   background-image: url(../img/napoli.jpg);
   background-size: cover;
   position: relative;
-  margin-bottom: 5px;
+  /* margin-bottom: 5px; */
+  margin: 10px;
 
 
 }
 
 .milano{
   width: 30vw;
-  height: 32vh;
+  height: 31vh;
   background-image: url(../img/Milano.jpg);
   background-size: cover;
   position: relative;
+  margin: 10px;
 
 }
