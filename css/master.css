@@ -8,6 +8,7 @@
   background-size: cover;
   position: relative;
   margin: 10px;
+  cursor: pointer;
 }
 
 .roma{
@@ -15,7 +16,14 @@
 }
 
 .shadow{
-    box-shadow: 3px 3px #000000;
+  box-shadow: 3px 3px #000000;
+}
+
+.ombra{
+  width: 30vw;
+  height: 31vh;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.3);
 }
 
 .name_city{
