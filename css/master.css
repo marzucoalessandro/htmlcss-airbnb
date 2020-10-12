@@ -2,22 +2,21 @@
   box-sizing: border-box;
 }
 
-
-
-.roma{
+.city{
   width: 30vw;
   height: 31vh;
-  background-image: url(../img/roma.jpg);
   background-size: cover;
   position: relative;
   margin: 10px;
 }
 
+.roma{
+  background-image: url(../img/roma.jpg);
+}
+
 .shadow{
     box-shadow: 3px 3px #000000;
 }
-
-
 
 .name_city{
   color: white;
@@ -31,23 +30,9 @@
 }
 
 .napoli{
-  width: 30vw;
-  height: 31vh;
   background-image: url(../img/napoli.jpg);
-  background-size: cover;
-  position: relative;
-  /* margin-bottom: 5px; */
-  margin: 10px;
-
-
-}
+  }
 
 .milano{
-  width: 30vw;
-  height: 31vh;
   background-image: url(../img/Milano.jpg);
-  background-size: cover;
-  position: relative;
-  margin: 10px;
-
 }
