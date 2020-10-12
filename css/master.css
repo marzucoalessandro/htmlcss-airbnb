@@ -45,3 +45,7 @@
 .milano{
   background-image: url(../img/Milano.jpg);
 }
+
+div.city:hover .ombra{
+  display: none;
+}
