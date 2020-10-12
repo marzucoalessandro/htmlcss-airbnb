@@ -2,6 +2,21 @@
   box-sizing: border-box;
 }
 
+body{
+  position: relative;
+}
+
+main{
+  width: 32vw;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+
+
+
+
 .city{
   width: 30vw;
   height: 31vh;
@@ -9,7 +24,8 @@
   position: relative;
   margin: 10px;
   cursor: pointer;
-}
+  display: block;
+  }
 
 .roma{
   background-image: url(../img/roma.jpg);
